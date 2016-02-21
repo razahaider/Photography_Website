@@ -107,7 +107,8 @@ header{
       background:  #bfbfbf;
     }
   	#services{
-  		background: gray;
+  		background: url(../img/services.jpg) no-repeat;
+      background-size: cover;
   		padding: 2rem 0 2rem 0;
   		position: relative;
 
@@ -148,7 +149,9 @@ header{
   		clear:both;
   	}
   	#portfolio_work{
-  		background:  #4a4a4f ;
+  		background: url(../img/portfolio.jpg) no-repeat;
+      background-size: cover;
+
   		padding: 5rem 0 25rem 0;
   		text-align: center;
   		position: relative;
@@ -206,7 +209,8 @@ header{
   		z-index: 2;
 	}
 	#contact_us{
-		background: #d8d8da;
+		background: url(../img/contact.jpg) no-repeat;
+    background-size: cover;
 		padding: 6rem 0 8rem 0;
 		text-align: center;
 	}
@@ -216,13 +220,14 @@ header{
 		margin: 0;
 		text-shadow: 2px 2px 2px #4F4F4F;
 	}
-	#contact_us.contact-sub{
+	#contact_us .contact-sub{
 		font-size: 1.5rem;
-		color: gray;
+		color: #fff;
 		width: 600px;
 		max-width: 100%;
 		display: block;
 		margin: 0 auto 4rem auto;
+    text-shadow: 2px 2px 2px #4F4F4F
 	}
 	a{
 		text-decoration: none;
@@ -230,10 +235,14 @@ header{
 
 	footer{
 		padding: 1rem 0;
+    color: gray;
 	}
-	footer .copyright{
+	footer .copyright, a{
 		text-align: center;
 		font-weight: 700;
 		color: gray;
 	}
+  .social{
+    width: 50px;
+  }
 
